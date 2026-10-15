@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEYZ UP! | Innovation & Technology</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1020;
+            color: white;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #252b40;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #55e6c1;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 110px 20px;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #55e6c1;
+        }
+
+        .hero p {
+            color: #c4cad8;
+            font-size: 18px;
+            line-height: 1.8;
+            max-width: 650px;
+            margin: 0 auto 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #55e6c1;
+            color: #0b1020;
+            padding: 14px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #55e6c1;
+        }
+
+        section p {
+            color: #c4cad8;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            border-top: 1px solid #252b40;
+            color: #c4cad8;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">FEYZ UP!</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero" id="home">
+            <h1>Ideas Into <span>Innovation.</span></h1>
+
+            <p>
+                Welcome to FEYZ UP!
+                We believe in creativity, technology,
+                and building solutions for the future.
+            </p>
+
+            <a href="#about" class="button">Discover FEYZ UP!</a>
+        </div>
+
+        <section id="about">
+            <h2>About FEYZ UP!</h2>
+            <p>
+                FEYZ UP! is a growing initiative focused on
+                innovation, technology, and creative ideas.
+                Our mission is to turn ideas into meaningful solutions.
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>Our Vision</h2>
+            <p>
+                Exploring new opportunities, developing projects,
+                and using technology to create a better future.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Have an idea or want to collaborate?
+                Get in touch with FEYZ UP!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 FEYZ UP! All rights reserved.
+    </footer>
+
+</body>
+</html>
